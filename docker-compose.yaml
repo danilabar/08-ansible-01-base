@@ -1,0 +1,16 @@
+version: '2.1'
+
+services:
+
+  centos7:
+    image: pycontribs/centos:7
+    container_name: centos7
+    entrypoint: sleep 900
+    restart: always
+
+  ubuntu:
+    image: pycontribs/ubuntu:latest
+    container_name: ubuntu
+    entrypoint: sleep 900
+    restart: always
+
